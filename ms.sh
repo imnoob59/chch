@@ -3,7 +3,7 @@
 # Function to display menu and get user choice
 display_menu() {
     echo "Please select the Windows Server or Windows version:"
-    echo "1. Windows Server 2016"
+    echo "1. Windows 10 H"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
     echo "4. Windows 10"
@@ -28,9 +28,9 @@ display_menu
 case $choice in
     1)
         # Windows Server 2016
-        img_file="windows2016.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US"
-        iso_file="windows2016.iso"
+        img_file="windows10h.img"
+        iso_link="https://store5.gofile.io/download/web/a8d24450-d1f9-4b0e-b8d4-a0c19c0b320d/Win10_EnglishInternational_x64.iso"
+        iso_file="windows10h.iso"
         ;;
     2)
         # Windows Server 2019
