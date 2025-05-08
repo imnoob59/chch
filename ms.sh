@@ -47,7 +47,7 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="https://bit.ly/3Y8D5qf"
+        iso_link="https://bit.ly/44u1H0G"
         iso_file="windows10.iso"
         ;;
     *)
